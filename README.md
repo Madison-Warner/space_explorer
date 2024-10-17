@@ -1,2 +1,2 @@
-# space_explorer
-A program codded in C that uses a depth first search to locate a randomly generated "Treasure Planet" in the shortest number of steps
+# About my Space Explorer project
+For this project, I was tasked with creating an algorithm enabling a spaceship to find and travel to a treasure planet before running out of fuel. All planets were randomly generated and given a special ID. At a random distance, one of these planets was designated as the "Treasure "Planet. The planets are connected like nodes on a tree graph, meaning you can only travel from one planet to its' connected planets. To handle dead ends this program uses backtracking so that when a dead end is met, the ship travels back to the previous planet and travels down the next closest planet.
